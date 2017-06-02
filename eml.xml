@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd"
+         packageId=""  system="http://gbif.org" scope="system"
+         xml:lang="en">
+
+<dataset>
+
+<alternateIdentifier>doi:10.5883/DS-NGSTYPES</alternateIdentifier>
+<alternateIdentifier>doi:10.1111/1755-0998.12474</alternateIdentifier>
+
+  <title>DNA barcodes from century-old type specimens using next-generation sequencing</title>
+
+  
+  
+<creator>
+<individualName>
+<givenName>Sean W. J.</givenName>
+<surName>Prosser</surName>
+</individualName>
+</creator>  
+
+<creator>
+<individualName>
+<givenName>Jeremy R.</givenName>
+<surName>deWaard</surName>
+</individualName>
+</creator>  
+
+<creator>
+<individualName>
+<givenName>Scott E.</givenName>
+<surName>Miller</surName>
+</individualName>
+<userId directory="http://orcid.org/">0000-0002-4138-1378</userId>
+</creator>  
+
+<creator>
+<individualName>
+<givenName>Paul D. N.</givenName>
+<surName>Hebert</surName>
+</individualName>
+</creator>  
+
+
+  
+<associatedParty>
+   <individualName>
+    <givenName>Roderic D. M.</givenName>
+    <surName>Page</surName>
+   </individualName>
+   <organizationName>University of Glasgow</organizationName>
+   <address/>
+   <electronicMailAddress>Roderic.Page@glasgow.ac.uk</electronicMailAddress>
+   <userId directory="http://orcid.org/">0000-0002-7101-9767</userId>
+   <role>PROCESSOR</role>
+</associatedParty>
+
+<pubDate>2016-12-23</pubDate>
+<language>ENGLISH</language>  
+  
+  <pubDate>2017-06-02</pubDate>
+
+
+<language>en</language>
+<abstract>
+  <para>Type specimens have high scientific importance because they provide the only certain connection between the application of a Linnean name and a physical specimen. Many other individuals may have been identified as a particular species, but their linkage to the taxon concept is inferential. Because type specimens are often more than a century old and have experienced conditions unfavourable for DNA preservation, success in sequence recovery has been uncertain. This study addresses this challenge by employing next-generation sequencing (NGS) to recover sequences for the barcode region of the cytochrome c oxidase 1 gene from small amounts of template DNA. DNA quality was first screened in more than 1800 century-old type specimens of Lepidoptera by attempting to recover 164-bp and 94-bp reads via Sanger sequencing. This analysis permitted the assignment of each specimen to one of three DNA quality categories – high (164-bp sequence), medium (94-bp sequence) or low (no sequence). Ten specimens from each category were subsequently analysed via a PCR-based NGS protocol requiring very little template DNA. It recovered sequence information from all specimens with average read lengths ranging from 458 bp to 610 bp for the three DNA categories. By sequencing ten specimens in each NGS run, costs were similar to Sanger analysis. Future increases in the number of specimens processed in each run promise substantial reductions in cost, making it possible to anticipate a future where barcode sequences are available from most type specimens.</para>
+</abstract>
+
+<!-- I'm not the copyright holder, and iBOL haven't asserted any license, so let's assume this is Public Domain -->
+<intellectualRights>
+<para>
+This work is free of known copyright restrictions.
+<ulink url="http://creativecommons.org/publicdomain/mark/1.0/">
+<citetitle>Public Domain Mark</citetitle>
+</ulink>
+</para>
+</intellectualRights>
+
+<contact>
+</contact>
+
+</dataset>
+
+<additionalMetadata>
+  <metadata>
+    <gbif>    
+<bibliography>
+<citation identifier="http://doi.org/10.1111/1755-0998.12474">Prosser, S. W. J., deWaard, J. R., Miller, S. E., &amp; Hebert, P. D. N. (2015, October 26). DNA barcodes from century-old type specimens using next-generation sequencing. Molecular Ecology Resources. Wiley-Blackwell. https://doi.org/10.1111/1755-0998.12474</citation>
+<citation identifier="http://dx.doi.org/10.5061/dryad.n1cg7">Prosser, S. W. J., DeWaard, J. R., Miller, S. E., &amp; Hebert, P. D. N. (2015). Data from: DNA barcodes from century-old type specimens using next generation sequencing (Version 1) [Data set]. Dryad Digital Repository. https://doi.org/10.5061/dryad.n1cg7</citation>
+<citation identifier="http://dx.doi.org/10.5883/DS-NGSTYPES">DNA barcodes from century-old type specimens using next-generation sequencing. http://dx.doi.org/10.5883/DS-NGSTYPES</citation>
+
+</bibliography>
+
+
+
+    </gbif>
+  </metadata>
+</additionalMetadata>
+
+</eml:eml>
