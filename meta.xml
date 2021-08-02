@@ -33,7 +33,7 @@
     <field index="24" term="http://rs.tdwg.org/dwc/terms/stateProvince"/>
     <field index="25" term="http://rs.tdwg.org/dwc/terms/locality"/>
     <field index="26" term="http://rs.tdwg.org/dwc/terms/associatedSequences"/>
-    <field term="http://rs.tdwg.org/dwc/terms/basisOfRecord" default="MaterialSample"/>
+    <field term="http://rs.tdwg.org/dwc/terms/basisOfRecord" default="Occurrence"/>
   </core>
   <extension encoding="utf-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://data.ggbn.org/schemas/ggbn/terms/Amplification">
     <files>
