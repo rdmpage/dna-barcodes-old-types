@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive xmlns="http://rs.tdwg.org/dwc/text/">
-  <core encoding="utf-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/MaterialSample">
+  <core encoding="utf-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Occurrence">
     <files>
       <location>occurrences.tsv</location>
     </files>
@@ -33,7 +33,7 @@
     <field index="24" term="http://rs.tdwg.org/dwc/terms/stateProvince"/>
     <field index="25" term="http://rs.tdwg.org/dwc/terms/locality"/>
     <field index="26" term="http://rs.tdwg.org/dwc/terms/associatedSequences"/>
-    <field term="http://rs.tdwg.org/dwc/terms/basisOfRecord" default="Occurrence"/>
+    <field term="http://rs.tdwg.org/dwc/terms/basisOfRecord" default="MaterialSample"/>
   </core>
   <extension encoding="utf-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy="" ignoreHeaderLines="1" rowType="http://data.ggbn.org/schemas/ggbn/terms/Amplification">
     <files>
